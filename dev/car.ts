@@ -28,6 +28,7 @@ class Car extends HTMLElement{
     public onClick() {
         Game.destroyed = 0
         Game.backgroundPositionX = 0
+        console.log(Game.backgroundPositionX)
     }
 
     private draw() {

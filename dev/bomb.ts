@@ -27,7 +27,7 @@ class Bomb extends HTMLElement implements GameObject {
     }
 
     public update() {     
-        if (this.posy >= window.innerHeight) {
+        if (this.posy === window.innerHeight) {
             this.posy = 0
             Game.destroyBuilding()
         }
